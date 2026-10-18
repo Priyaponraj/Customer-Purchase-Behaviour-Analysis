@@ -169,7 +169,7 @@ order by total_revenue desc;
 
 * Customers by Frequency Band: A bar chart detailing the distribution of purchase frequencies (Weekly, Monthly, Quarterly, etc.).
 
-## [Behavior Insights Tab](https://github.com/user-attachments/assets/516ec7b7-5a58-4cae-a9dd-fcddc1fb12ee)
+## [Behavior Insights Tab](https://github.com/user-attachments/assets/c412f2cc-81f5-43d9-b39d-a7028fee4149)
 
 * Average Purchase by Age Group: A normalized bar chart comparing spending habits across age demographics.
 
