@@ -1,11 +1,3 @@
-create database Customer_Shopping_Behavior_Analysis;
-use Customer_Shopping_Behavior_Analysis;
-
-SELECT * FROM customer_shopping_behavior_analysis.customer_data;
-
--- change the table name
-alter table customer_shopping_behavior_analysis.customer_data rename to csba;
-
 SELECT * FROM csba
 limit 5;
 
