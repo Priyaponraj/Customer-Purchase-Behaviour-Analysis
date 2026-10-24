@@ -4,7 +4,7 @@
 
 ## 📖 Project Overview
 
-This project delivers an end-to-end data analysis of customer shopping behavior. It utilizes SQL for data extraction, transformation, and exploratory data analysis (EDA), and Power BI to visualize key metrics and trends. The goal is to uncover actionable insights regarding customer demographics, purchasing patterns, subscription impacts, and product performance.
+This project delivers an end-to-end data analysis of customer shopping behaviour. It utilizes SQL for data extraction, transformation, and exploratory data analysis (EDA), and Power BI to visualize key metrics and trends. The goal is to uncover actionable insights regarding customer demographics, purchasing patterns, subscription impacts, and product performance.
 
 ## [🗂️ Dataset Schema](https://github.com/Priyaponraj/Customer-Purchase-Behavior-Analysis/blob/main/csba.csv)
 
@@ -51,7 +51,7 @@ where discount_applied = 'Yes' and purchase_amount > (select AVG(purchase_amount
 Q3. Top Rated Products: Ranks the top 5 products based on their average review rating.
 
 ```
-select
+select    
     item_purchased,
     round(avg(CAST(review_rating as decimal(10,2))), 2) as `Average Product Rating`
 from csba
@@ -169,7 +169,7 @@ order by total_revenue desc;
 
 * Customers by Frequency Band: A bar chart detailing the distribution of purchase frequencies (Weekly, Monthly, Quarterly, etc.).
 
-## [Behavior Insights Tab](https://github.com/user-attachments/assets/c412f2cc-81f5-43d9-b39d-a7028fee4149)
+## [Behaviour Insights Tab](https://github.com/user-attachments/assets/c412f2cc-81f5-43d9-b39d-a7028fee4149)
 
 * Average Purchase by Age Group: A normalized bar chart comparing spending habits across age demographics.
 
