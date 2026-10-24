@@ -1,6 +1,6 @@
 [Customer Shopping Behavior Analysis.md](https://github.com/user-attachments/files/33344801/Customer.Shopping.Behavior.Analysis.md)
 
-# Customer Shopping Behavior Analysis
+# Customer Shopping Behaviour Analysis
 
 ## 📖 Project Overview
 
